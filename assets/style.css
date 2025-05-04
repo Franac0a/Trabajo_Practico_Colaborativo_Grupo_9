@@ -6,3 +6,44 @@
     background-repeat: no-repeat;
     color: white;
 }
+body {
+    max-width: 100%;
+}
+.hover-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+}
+
+.hover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 10;
+    padding: 10px;
+}
+
+.hover-card:hover .hover-content {
+    opacity: 1;
+}
+
+.hover-content img {
+    max-width: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
