@@ -1,0 +1,8 @@
+/*css de thomas*/
+.logros-bg {
+    background-image: url('/assets/img/messi\ con\ 8balones\ de\ oro.jpg'); /* Cambiá la ruta a tu imagen real */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
