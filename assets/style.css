@@ -1,11 +1,11 @@
 /* Estilos para la barra de navegacion */
-.nav .nav-link.active {
+.nav-pills .nav-link.active {
     background-color: #0d6efd;
     color: white;
     font-weight: bold;
     border-bottom: 3px solid #07ffff; 
 }
-.nav .nav-link:hover:not(.active) {
+.nav-pills .nav-link:hover:not(.active) {
     background-color: #e9ecef;
     color: #0d6efd;
 }
