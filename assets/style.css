@@ -1,49 +1,28 @@
 /*css de thomas*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
 .logros-bg {
-    background-image: url('/assets/img/messi\ con\ 8balones\ de\ oro.jpg'); /* Cambiá la ruta a tu imagen real */
+    background-image: url('/assets/img/fonditopagina.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
-}
-body {
-    max-width: 100%;
-}
-.hover-card {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.hover-card:hover {
-    transform: scale(1.05);
-}
-
-.hover-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.85);
-    color: #fff;
+    height: 200px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    z-index: 10;
-    padding: 10px;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
 }
 
-.hover-card:hover .hover-content {
-    opacity: 1;
-}
-
-.hover-content img {
-    max-width: 100px;
-    margin-top: 10px;
-    border-radius: 10px;
-}
