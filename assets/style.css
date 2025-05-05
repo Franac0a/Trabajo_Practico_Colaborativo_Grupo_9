@@ -1,3 +1,4 @@
+/*css de thomas*/
 html, body {
     height: 100%;
     margin: 0;
@@ -117,4 +118,16 @@ nav{
   }
   
 
+.logros-bg {
+    background-image: url('/assets/img/fonditopagina.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
 
