@@ -1,0 +1,133 @@
+/*css de thomas*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+/* Estilos para la barra de navegacion */
+.nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid #07ffff; 
+    border-radius: 10px;
+}
+.nav-link:hover:not(.active) {
+    background-color: #e9ecef;
+    color: #0d6efd;
+    border-radius: 10px;
+}
+nav{
+    background-color: #192727;
+}
+/* css de Carrera Deportiva - facundoCristaldo-html */
+
+.img-encabezado {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover; 
+    object-position: center 30%; 
+    align-items: center;
+  }
+/* oscurece la imagen */
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.678);
+  }
+
+.titulo-carrera {
+    margin: 20px;
+    color: #06afaf;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: unset;
+    font-weight: bold;
+    
+}
+.texto-carrera{
+    color: rgb(163, 193, 197);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.link-vida{
+    border-left: 5px solid #1e3636;
+    border-bottom: 5px solid rgb(41, 52, 65);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #06afaf;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Colores del acordeon de etapas */
+.accordion-button {   
+    color: white;
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.1);
+  }
+  
+  /* Colores por equipo */
+  #newells .accordion-button {
+    background-color: #835256; 
+  }
+  #barcelona .accordion-button {
+    background-color: #840c3e; 
+  }
+  #psg .accordion-button {
+    background-color: #44528d; 
+  }
+  #miami .accordion-button {
+    background-color: #ff0099; 
+  }
+  #argentina .accordion-button {
+    background: #06afaf; 
+  }
+  .accordion-button:hover {
+    filter: brightness(90%);
+  }
+  .titulo-seccion{
+    color: aliceblue;
+    text-align: center;
+  }
+  .seccion-etapas{
+    background-color: #232c2c;
+    padding: 15px;
+    border-radius: 15px ;
+  }
+  /* Estilo para los Items  */
+  .list-group-item {
+    background-color: #f8f9fa;
+    border-left: 4px solid transparent;
+  }
+  .list-group-item:hover {
+    background-color: #e9ecef;
+    border-left-color: #6c757d; 
+  }
+  .bg-primary {
+    background-color: #4a6fa5; 
+  }
+  
+
+.logros-bg {
+    background-image: url('/assets/img/fonditopagina.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
