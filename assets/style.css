@@ -37,11 +37,11 @@ nav{
     object-fit: cover; 
     object-position: center 30%; 
     align-items: center;
-  }
+}
 /* oscurece la imagen */
 .card-img-overlay {
     background: rgba(0, 0, 0, 0.678);
-  }
+}
 
 .titulo-carrera {
     margin: 20px;
@@ -71,52 +71,52 @@ nav{
 /* Colores del acordeon de etapas */
 .accordion-button {   
     color: white;
-  }
-  .accordion-button:not(.collapsed) {
+}
+.accordion-button:not(.collapsed) {
     box-shadow: inset 0 -2px 0 rgba(0,0,0,0.1);
-  }
-  
+}
+
   /* Colores por equipo */
-  #newells .accordion-button {
+#newells .accordion-button {
     background-color: #835256; 
-  }
-  #barcelona .accordion-button {
+}
+#barcelona .accordion-button {
     background-color: #840c3e; 
-  }
-  #psg .accordion-button {
+}
+#psg .accordion-button {
     background-color: #44528d; 
-  }
-  #miami .accordion-button {
+}
+#miami .accordion-button {
     background-color: #ff0099; 
-  }
-  #argentina .accordion-button {
+}
+#argentina .accordion-button {
     background: #06afaf; 
-  }
-  .accordion-button:hover {
+}
+.accordion-button:hover {
     filter: brightness(90%);
-  }
-  .titulo-seccion{
+}
+.titulo-seccion{
     color: aliceblue;
     text-align: center;
-  }
-  .seccion-etapas{
+}
+.seccion-etapas{
     background-color: #232c2c;
     padding: 15px;
     border-radius: 15px ;
-  }
+}
   /* Estilo para los Items  */
-  .list-group-item {
+.list-group-item {
     background-color: #f8f9fa;
     border-left: 4px solid transparent;
-  }
-  .list-group-item:hover {
+}
+.list-group-item:hover {
     background-color: #e9ecef;
     border-left-color: #6c757d; 
-  }
-  .bg-primary {
+}
+.bg-primary {
     background-color: #4a6fa5; 
-  }
-  
+}
+
 
 .logros-bg {
     background-image: url('/assets/img/fonditopagina.png');
